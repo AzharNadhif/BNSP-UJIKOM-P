@@ -1,0 +1,151 @@
+.wrap{
+	background: #80c8bc;
+	width: 1300px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: #80c8bc;
+	padding: 2px 10px;
+}
+ a{
+	 color: white;
+	 text-decoration: none;
+ }
+ .header h1 {
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	margin-top: -80px;
+	padding-bottom: 20px;
+  }
+  .header img{
+	width: 100px;
+	padding-bottom: 10px;
+  }
+/*akhir header*/
+ 
+/*bagian menu*/
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #081305;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	margin-left: 10px;
+	list-style-type: none;
+	padding: 13px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #efd199;
+	float: left;	
+	width: 25%;
+	height: 150%;
+}
+
+.wrap .badan .sidebar{
+	background-image: url('img/sude.jpg');
+     background-size: cover;
+     background-repeat: no-repeat; 
+}
+/*akhir sidebar*/
+ 
+/* content */
+
+.wrap .badan .content{
+	background: #efd199;
+	float: left;
+	height: 150%; 
+	width: 75%;	
+}
+
+.content h2{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.content img{
+	margin-top: 30px;
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* konten table */
+.wrap .badan .content{
+	background: #d6c096;
+	height: 150%; 
+	width: 75%;	
+}
+
+
+
+/* wisata */
+
+.wrap .badan{
+	background-color: #80c8bc;
+}
+
+.wrap .badan td{
+	margin-top: 20px;
+}
+
+
+.grid-container {
+	background-color: #96caf0;
+    display:grid;
+	grid-gap: 50px;
+  	grid-template-columns: auto auto auto;
+  	padding: 10px;
+    /* list-style-type:none; */
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+	
+}
+.grid-container p {
+	font-size: 14px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.grid-item img{
+	width: 250px;
+}
+
+
+/* footer  */
+.wrap .footer{
+	background-color: #707070;
+	width: 100%;
+	padding: 10px;
+	color: whitesmoke;
+	text-align: center;
+}
